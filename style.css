@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000000;
+}
+
+p {
+font-family: "Tele2 DisplaySerif", sans-serif;
+font-size: 16px;
+position: relative;
+}
+
+
+.choose {
+    margin-top: 100px;
+}
+.choose_row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top:30px;
+    grid-gap: 30px;
+}
+.choose_item{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.choose_item1{
+    background-image: url(images/tarif1.jpg);
+}
+.choose_item2{
+    background-image: url(images/tarif2.jpg);
+}
+.choose_item3{
+    background-image: url(images/tarif3.jpg);
+}
+.choose_item4{
+    background-image: url(images/tarif4.jpg);
+}
+
+.settings{
+    margin-top: 100px;
+}
+.settings_question p{
+    font-family: "Tele2 TextSans", sans-serif;
+    
+    position: relative;
+}
+.settings_question input{
+    margin-right: 10px;
+    border: 3px solid #adb5bd;
+  border-radius: 0em;
+}
+.settings_row{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+}
+.settings_row-two{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+}
+.settings_btn{
+    height: 31px;
+    width: 271px;
+    border: 0px;
+    margin-left: 10px;
+}

@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000000;
+}
+
+@font-face {
+    @font-face {
+    font-family: Tele2 DisplaySerif; /* Имя шрифта */
+    src: url(fonts/tele2_displayserif-bold.otf); /* Путь к файлу со шрифтом */
+   }
+}
+@font-face {
+    font-family: "Tele2 DisplaySerif";
+    src: url(fonts/tele2_displayserif-regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Tele2 TextSans";
+    src: url(fonts/tele2_textsans-bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Tele2 TextSans";
+    src: url(fonts/tele2_textsans-regular.ttf);
+    font-weight: normal;
+}
+
+.text_display p{
+    font-family: "Tele2 DisplaySerif";
+}
+.text_text-sans p{
+    font-family: "Tele2 TextSans";
+}
+
+.text_16{
+    font-size: 16px;
+}
+.text_18{
+    font-size: 18px;
+}
+.text_20{
+    font-size: 20px;
+}
+.text_21{
+    font-size: 21px;
+}
+.text_22{
+    font-size: 22px;
+}
+.text_24{
+    font-size: 24px;
+}
+.text_26{
+    font-size: 26px;
+}
+.text_30{
+    font-size: 30px;
+}
+.text_34{
+    font-size: 34px;
+}
+.text_36{
+    font-size: 36px;
+}
+.text_38{
+    font-size: 38px;
+}
+.text_40{
+    font-size: 40px;
+}
+
+.text_regular{
+    font-weight: normal;
+}
+.text_bold{
+    font-weight: bold;
+}
+
+.text_center{
+    text-align: center;
+}
+
+
+.container {
+    width: 1020px;
+    margin: auto; 
+}
+@media (min-width: 1199px){
+    .conteiner {
+      max-width: 1140px;
+    }
+}
+@media (min-width: 1499px){
+    .conteiner {
+      max-width: 1425px;
+    }
+}
+
+.choose {
+
+}
